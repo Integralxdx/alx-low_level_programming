@@ -10,11 +10,11 @@ int main(void)
 
 {
 
-int lc;
+char lc;
 
 for (lc = 'z'; lc >= 'a'; --lc)
 
-putchar("%lc", lc);
+putchar(lc);
 
 putchar('\n');
 
