@@ -12,26 +12,36 @@ int main(void)
 
 {
 
-	long int ni, nf, n, sum;
+	unsigned long ni, nf, n;
+
+	float sum;
 
 	ni = 0;
 
 	nf = 1;
 
-	n = 0;
+	while (1)
 
-	sum = 0;
-
-	while (n < 4000000)
 	{
+
 		n = ni + nf;
-		if (n % 2 == 0)
-		{
+
+		if (n > 4000000)
+
+			break;
+
+		if ((n % 2) == 0)
+
 			sum += n;
-		}
+
 		ni = nf;
+
 		nf = n;
+
 	}
-	printf("%lu", sum);
+
+	printf("%.0f\n", sum);
+
 	return (0);
+
 }
