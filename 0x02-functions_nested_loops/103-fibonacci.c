@@ -33,6 +33,5 @@ int main(void)
 		nf = n;
 	}
 	printf("%lu", n);
-	printf("\n");
 	return (0);
 }

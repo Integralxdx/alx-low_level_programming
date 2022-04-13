@@ -16,9 +16,9 @@ int main(void)
 
 	unsigned long int ni, nf, n;
 
-	prev2 = 0;
+	ni = 0;
 
-	prev1 = 1;
+	nf = 1;
 
 	for (i = 0; i < 98; i++)
 
@@ -29,7 +29,7 @@ int main(void)
 		else
 			printf("%lu, ", n);
 		nf = ni;
-		ni = n;
+		nf = n;
 	}
 	printf("\n");
 	return (0);
