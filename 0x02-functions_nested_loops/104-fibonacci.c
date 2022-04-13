@@ -28,7 +28,7 @@ int main(void)
 			printf("%lu", n);
 		else
 			printf("%lu, ", n);
-		nf = ni;
+		ni = nf;
 		nf = n;
 	}
 	printf("\n");

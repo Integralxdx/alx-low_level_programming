@@ -32,6 +32,6 @@ int main(void)
 		ni = nf;
 		nf = n;
 	}
-	printf("%lu", n);
+	printf("%lu", sum);
 	return (0);
 }
