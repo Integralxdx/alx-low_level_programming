@@ -5,23 +5,20 @@
  * @n: integrer n
  */
 
-void print_number(unsigned int n)
+void print_number(int n)
 {
-	unsigned int a, b;
+	unsigned int a;
 
-	if (n >= 0)
-		b = n;
+	if (n < 0)
+	{
+		_putchar('-');
+		a = -n;
+	}
 	else
 	{
-		b = n * -1;
-		_putchar('-');
+		a = n;
 	}
-	for (a = 1; a * 10 <= b; a *= 10)
-		;
-	while (a > 0)
-	{
-		_putchar(b / a + '0');
-		b %= a;
-		i /= 10;
-	}
+	if (a / 10 != 0)
+		print_number(a / 10);
+	_putchar((a % 10) + '0');
 }
