@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * print_most_numbers - A function that prints 0-9 ex 0 $ 4
