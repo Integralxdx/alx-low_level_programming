@@ -18,6 +18,6 @@ void print_square(int size)
 	{
 		for (b = 0; b < size; b++)
 			_putchar('#');
-		-putchar('\n');
+		_putchar('\n');
 	}
 }
