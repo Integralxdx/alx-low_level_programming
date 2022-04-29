@@ -3,7 +3,7 @@
 /**
  * factorial - a function that returns the
  * factorial of a given number.
- * @n: the number
+ * @n: the number.
  *
  * Return: The factorial or -1 for error
  */

@@ -4,7 +4,7 @@
  *evaluate_num - recursion loop
  *@num: num
  *@i: iterator no
- *Return: 0 or 1
+ *Return: 0 or 1.
  */
 
 int evaluate_num(int num, int i)
@@ -33,7 +33,7 @@ int evaluate_num(int num, int i)
 int is_prime_number(int num)
 {
 	int i;
-	
+
 	i = 2;
 	if (num < 2)
 	{
