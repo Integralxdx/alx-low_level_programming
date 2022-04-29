@@ -1,4 +1,4 @@
-#imclude "main.h"
+#include "main.h"
 /**
  * _sqrt - a function that returns
  * the natural square root of a number.
