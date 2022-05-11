@@ -3,6 +3,7 @@
 
 /**
  * print_dog - print dog
+ * d - is d
  */
 
 void print_dog(struct dog *d)
