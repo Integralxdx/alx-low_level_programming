@@ -1,0 +1,1 @@
+kkkk functions and pointers
