@@ -72,4 +72,4 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 
 	new = malloc(sizeof(shash_node_t));
 	if (new == NULL)
-
+}
